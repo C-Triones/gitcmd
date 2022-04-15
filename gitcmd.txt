@@ -1,0 +1,49 @@
+1、git init 创建本地仓库
+2、git add file 推送到暂存空间
+3、git commit -m "备注"
+4、git status 要随时掌握工作区的状态
+5、git diff file 查看修改了什么
+6、git log 命令显示从最近到最远的提交日志
+7、git reset --hard HEAD^ HEAD~100 回退到上一个版本
+8、git reset --hard 回退到指定版本
+9、git reflog 查看命令历史
+////////////////////////////修改/////////////////////////////
+10、git checkout -- file 丢弃工作区的修改
+11、git reset HEAD flie 把暂存区的修改撤销掉
+	git checkout -- file 丢弃工作区的修改
+12、git rm file
+	git commit ""
+13、git checkout -- file 删错了还原 没有保存近仓库没有办法还原
+///////////////////////////远程仓库/////////////////////////
+14、ssh-keygen -t rsa -C "youremail@example.com"  在本地创建SSH Key
+可以在用户主目录里找到.ssh目录，里面有id_rsa和id_rsa.pub两个文件，
+这两个就是SSH Key的秘钥对，id_rsa是私钥，不能泄露出去，
+id_rsa.pub是公钥，复制粘贴到github .ssh
+
+15、git remote add origin 远程库地址 连接远程库
+
+16、git push -u origin master 第一次 -u推送本地库全部东西
+git push origin master 
+
+17、git remote rm origin 解除了本地和远程的绑定关系
+
+///////////////////////////克隆远程仓库/////////////////////////
+18、git clone 地址 克隆远程仓库
+
+19、$ cd gitskills 
+	$ ls
+	
+///////////////////////////分支管理/////////////////////////
+20、git checkout -b name  git switch -c dev  创建分支，切换到dev分支
+$ git branch name
+$ git checkout name 等价
+
+21、 git branch 查看分支
+
+22、git add file  git ommit -m "" 推送东西到分支
+
+23、git checkout master      git switch master 切换
+
+24、git merge dev 命令用于合并指定分支到当前分支
+
+25、git branch -d dev 删除分支
