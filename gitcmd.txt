@@ -1,5 +1,6 @@
 1、git init 创建本地仓库
 2、git add file 推送到暂存空间
+	git add *  推送当前所有文件到暂存空间
 3、git commit -m "备注"
 4、git status 要随时掌握工作区的状态
 5、git diff file 查看修改了什么
@@ -29,6 +30,7 @@ git push origin master
 
 ///////////////////////////克隆远程仓库/////////////////////////
 18、git clone 地址 克隆远程仓库
+git clone -b develop 链接分支
 
 19、$ cd gitskills 
 	$ ls
