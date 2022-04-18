@@ -24,7 +24,8 @@ id_rsa.pub是公钥，复制粘贴到github .ssh
 15、git remote add origin 远程库地址 连接远程库
 
 16、git push -u origin master 第一次 -u推送本地库全部东西
-git push origin master 
+	git push origin master 后面用
+	git push origin branch 分支名  推送到远程分支
 
 17、git remote rm origin 解除了本地和远程的绑定关系
 
