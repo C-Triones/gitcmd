@@ -43,7 +43,7 @@ $ git checkout name 等价
 
 21、 git branch 查看分支
 
-22、git add file  git ommit -m "" 推送东西到分支
+22、git add file  git commit -m "" 推送东西到分支
 
 23、git checkout master      git switch master 切换
 
@@ -52,9 +52,9 @@ $ git checkout name 等价
 25、git branch -d dev 删除分支
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\解决两个分支冲突\\\\\\\\\\\\\\\\\\\\\\\\\\
-26、两个分支都更新过之后，git merge 分支1 ，git status查看状态，手工修改合并文件
+26、git merge 分支1   两个分支都更新过之后，合并，git status查看状态，手工修改合并文件
 add\commit完成合并
 
 27、git log --graph --pretty=oneline --abbrev-commit 显示合并过程
 
-
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\解决两个分支冲突\\\\\\\\\\\\\\\\\\\\\\\\\\
